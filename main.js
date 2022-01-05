@@ -12,6 +12,7 @@ button.addEventListener('click',function(e){
     userList.appendChild(userPoints);
 });
 
+
 const alertFunction = (title, message, className="warning") =>  `
 <div class="alert alert-${className} alert-dismissible fade show" role="alert">
 <strong>${title}</strong> ${message}
